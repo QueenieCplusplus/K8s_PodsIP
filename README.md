@@ -8,6 +8,9 @@ to deploy seamless Service from Front-end and Back-end Replica Pods
 透過 Label Selector 存取 pod，倘若叢集中某一 pod 死亡，也有其他 pod 補上服務的位子，可以說相當的便利與穩定。
 
 
+對外服務的 Master Node 則使用 pod 的 IP 結合容器的 port 行成可以對外服務的虛擬後端端點 EndPoint。
+
+
 
 
 
