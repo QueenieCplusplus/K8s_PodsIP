@@ -11,6 +11,10 @@ to deploy seamless Service from Front-end and Back-end Replica Pods
 
 對外服務的 Master Node 則使用 pod 的 IP 結合容器的 port 行成可以對外服務的虛擬後端端點 EndPoint。
 
+# IP 配置方式
+
+  (to be continued...)
+
 
 
 
