@@ -13,9 +13,6 @@ to deploy seamless Service from Front-end and Back-end Replica Pods
 
 開放給外部客戶端（使用者端）的前端的 ClusterIP:NodePort 要另外在 cluster 的每一個 node 上的設定，如此一來，客戶端才能透過此 Port 連結到內部的後端服務，形成對外提供服務的虛擬後端端點 EndPoint of Virtual Backend 。
 
-# IP 配置方式
-
-  (to be continued...)
 
 
 
