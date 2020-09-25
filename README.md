@@ -9,9 +9,9 @@ to deploy seamless Service from Front-end and Back-end Replica Pods
 
 # 虛擬化後端
 
-對外服務的 Master Node 則使用 pod 的 IP 結合容器的 port 行成可以對外服務的虛擬後端端點 EndPoint，然而此服務端點僅提供於內部使用，就是 cluster 層級下的 pod 們使用。
+對外服務的 Master Node 則使用 pod 的 IP 結合容器的 port 行成可以對內服務的虛擬後端端點 EndPoint，然而此服務端點僅提供於內部使用，就是 cluster 層級下的 pod 們使用。
 
-開放給外部客戶端（使用者端）的前端的 ClusterIP:NodePort 要另外在 cluster 的每一個 node 上的設定，如此一來，客戶端才能透過此 Port 連結到內部的後端服務。
+開放給外部客戶端（使用者端）的前端的 ClusterIP:NodePort 要另外在 cluster 的每一個 node 上的設定，如此一來，客戶端才能透過此 Port 連結到內部的後端服務，形成對外提供服務的虛擬後端端點 EndPoint of Virtual Backend 。
 
 # IP 配置方式
 
